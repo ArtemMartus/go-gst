@@ -6,7 +6,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/go-gst/go-glib/glib"
+	"github.com/ArtemMartus/go-glib/glib"
 )
 
 // DeviceProvider is a Go representation of a GstDeviceProvider.

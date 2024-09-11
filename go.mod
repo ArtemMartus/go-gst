@@ -1,9 +1,10 @@
-module github.com/go-gst/go-gst
+module github.com/ArtemMartus/go-gst
 
 go 1.22
 
-require github.com/mattn/go-pointer v0.0.1
+require (
+	github.com/ArtemMartus/go-glib v1.3.0
+	github.com/mattn/go-pointer v0.0.1
+)
 
-require github.com/go-gst/go-glib v1.2.1
-
-require golang.org/x/exp v0.0.0-20240416160154-fe59bbe5cc7f // indirect
+require golang.org/x/exp v0.0.0-20240904232852-e7e105dedf7e // indirect

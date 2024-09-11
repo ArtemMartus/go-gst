@@ -6,7 +6,7 @@ all: $(PLUGINS)
 $(PLUGINS):
 	cd $@ && \
 		go generate && \
-		go build -o ../libgst$@.so -buildmode c-shared .
+		go build -v -gcflags '-N -l' -o ../libgst$@.so -buildmode c-shared .
 	rm libgst$@.h
 
 clean:

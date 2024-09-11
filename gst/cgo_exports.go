@@ -12,7 +12,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/go-gst/go-glib/glib"
+	"github.com/ArtemMartus/go-glib/glib"
 	gopointer "github.com/mattn/go-pointer"
 )
 

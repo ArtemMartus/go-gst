@@ -15,8 +15,8 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/gst"
+	"github.com/ArtemMartus/go-glib/glib"
+	"github.com/ArtemMartus/go-gst/gst"
 )
 
 // GstBaseSink represents a GstBaseSink.

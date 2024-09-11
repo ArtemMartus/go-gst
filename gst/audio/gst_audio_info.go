@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/go-gst/go-gst/gst"
+	"github.com/ArtemMartus/go-gst/gst"
 )
 
 // Flags contains extra audio flags

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/go-gst/go-glib/glib"
+	"github.com/ArtemMartus/go-glib/glib"
 )
 
 // Pipeline is a go implementation of a GstPipeline.

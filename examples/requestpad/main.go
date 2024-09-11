@@ -3,9 +3,9 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/examples"
-	"github.com/go-gst/go-gst/gst"
+	"github.com/ArtemMartus/go-glib/glib"
+	"github.com/ArtemMartus/go-gst/examples"
+	"github.com/ArtemMartus/go-gst/gst"
 	"os"
 	"time"
 )

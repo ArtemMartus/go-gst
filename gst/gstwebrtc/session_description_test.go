@@ -3,8 +3,8 @@ package gstwebrtc_test
 import (
 	"testing"
 
-	"github.com/go-gst/go-gst/gst/gstsdp"
-	"github.com/go-gst/go-gst/gst/gstwebrtc"
+	"github.com/ArtemMartus/go-gst/gst/gstsdp"
+	"github.com/ArtemMartus/go-gst/gst/gstwebrtc"
 )
 
 func TestSessionDescriptionGValueMarshal(t *testing.T) {

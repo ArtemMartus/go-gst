@@ -3,7 +3,7 @@ package main
 import (
 	"math"
 
-	"github.com/go-gst/go-glib/glib"
+	"github.com/ArtemMartus/go-glib/glib"
 )
 
 // Even though there is overlap in properties, they have to be declared twice.

@@ -6,7 +6,7 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/go-gst/go-glib/glib"
+	"github.com/ArtemMartus/go-glib/glib"
 )
 
 func init() {

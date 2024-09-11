@@ -3,7 +3,7 @@ package examples
 import (
 	"fmt"
 
-	"github.com/go-gst/go-glib/glib"
+	"github.com/ArtemMartus/go-glib/glib"
 )
 
 // Run is used to wrap the given function in a main loop and print any error

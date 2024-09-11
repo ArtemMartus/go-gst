@@ -43,7 +43,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/go-gst/go-glib/glib"
+	"github.com/ArtemMartus/go-glib/glib"
 )
 
 // ExtendsElement implements an Extendable object based on a GstElement.

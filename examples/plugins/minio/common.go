@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/gst"
+	"github.com/ArtemMartus/go-glib/glib"
+	"github.com/ArtemMartus/go-gst/gst"
 	minio "github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 )

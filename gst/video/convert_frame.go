@@ -21,7 +21,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/go-gst/go-gst/gst"
+	"github.com/ArtemMartus/go-gst/gst"
 	gopointer "github.com/mattn/go-pointer"
 )
 

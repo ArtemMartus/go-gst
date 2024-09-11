@@ -20,8 +20,8 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/go-gst/go-gst/gst"
-	"github.com/go-gst/go-gst/gst/base"
+	"github.com/ArtemMartus/go-gst/gst"
+	"github.com/ArtemMartus/go-gst/gst/base"
 	gopointer "github.com/mattn/go-pointer"
 )
 

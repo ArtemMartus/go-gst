@@ -13,7 +13,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/go-gst/go-gst/gst"
+	"github.com/ArtemMartus/go-gst/gst"
 )
 
 // FramesToClockTime calculates the Clocktime

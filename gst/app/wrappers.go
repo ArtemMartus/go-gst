@@ -4,8 +4,8 @@ package app
 import "C"
 
 import (
-	"github.com/go-gst/go-gst/gst"
-	"github.com/go-gst/go-gst/gst/base"
+	"github.com/ArtemMartus/go-gst/gst"
+	"github.com/ArtemMartus/go-gst/gst/base"
 )
 
 func wrapAppSink(elem *gst.Element) *Sink {

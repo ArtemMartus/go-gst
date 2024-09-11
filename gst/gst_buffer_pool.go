@@ -7,7 +7,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/go-gst/go-glib/glib"
+	"github.com/ArtemMartus/go-glib/glib"
 )
 
 // BufferPool is a go wrapper around a GstBufferPool.

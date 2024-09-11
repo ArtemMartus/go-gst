@@ -19,12 +19,12 @@
 // +plugin:License=gst.LicenseLGPL
 // +plugin:Source=go-gst
 // +plugin:Package=examples
-// +plugin:Origin=https://github.com/go-gst/go-gst
+// +plugin:Origin=https://github.com/ArtemMartus/go-gst
 // +plugin:ReleaseDate=2021-01-04
 //
 // +element:Name=gofilesrc
 // +element:Rank=gst.RankNone
-// +element:Impl=fileSrc
+// +element:Impl=FileSrc
 // +element:Subclass=base.ExtendsBaseSrc
 // +element:Interfaces=gst.InterfaceURIHandler
 //
@@ -38,9 +38,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/gst"
-	"github.com/go-gst/go-gst/gst/base"
+	"github.com/ArtemMartus/go-glib/glib"
+	"github.com/ArtemMartus/go-gst/gst"
+	"github.com/ArtemMartus/go-gst/gst/base"
 )
 
 // main is left unimplemented since these files are compiled to c-shared.
@@ -116,7 +116,7 @@ func (f *FileSrc) setLocation(path string) error {
 // Every element needs to provide its own constructor that returns an initialized
 // glib.GoObjectSubclass and state objects.
 func (f *FileSrc) New() glib.GoObjectSubclass {
-	CAT.Log(gst.LevelLog, "Initializing new fileSrc object")
+	CAT.Log(gst.LevelLog, "Initializing new FileSrc object")
 	return &FileSrc{
 		settings: &settings{},
 		state:    &state{},

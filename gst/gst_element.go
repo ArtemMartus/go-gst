@@ -39,7 +39,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/go-gst/go-glib/glib"
+	"github.com/ArtemMartus/go-glib/glib"
 	gopointer "github.com/mattn/go-pointer"
 )
 
@@ -111,12 +111,13 @@ func RegisterElement(plugin *Plugin, name string, rank Rank, elem glib.GoObjectS
 	if plugin != nil {
 		pluginref = plugin.Instance()
 	}
+	elementType := glib.RegisterGoType(name, elem, extends, interfaces...)
 
 	return gobool(C.gst_element_register(
 		pluginref,
 		C.CString(name),
 		C.guint(rank),
-		C.GType(glib.RegisterGoType(name, elem, extends, interfaces...)),
+		C.GType(elementType),
 	))
 }
 
@@ -629,7 +630,7 @@ func (e *Element) SeekDefault(position int64, flag SeekFlags) bool {
 }
 
 // this prevents go pointers in cgo when setting a gst.Element to a property
-// see (https://github.com/go-gst/go-gst/issues/65)
+// see (https://github.com/ArtemMartus/go-gst/issues/65)
 // ToGValue implements glib.ValueTransformer.
 func (e *Element) ToGValue() (*glib.Value, error) {
 	val, err := glib.ValueInit(glib.Type(C.GST_TYPE_ELEMENT))

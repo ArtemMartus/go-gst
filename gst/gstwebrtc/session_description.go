@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/go-gst/go-glib/glib"
-	"github.com/go-gst/go-gst/gst/gstsdp"
+	"github.com/ArtemMartus/go-glib/glib"
+	"github.com/ArtemMartus/go-gst/gst/gstsdp"
 )
 
 func init() {

@@ -9,7 +9,7 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/go-gst/go-gst/gst"
+	"github.com/ArtemMartus/go-gst/gst"
 )
 
 func wrapGerr(gerr *C.GError) error {
