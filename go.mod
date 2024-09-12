@@ -3,7 +3,7 @@ module github.com/ArtemMartus/go-gst
 go 1.22
 
 require (
-	github.com/ArtemMartus/go-glib v1.3.0
+	github.com/ArtemMartus/go-glib v1.3.1
 	github.com/mattn/go-pointer v0.0.1
 )
 

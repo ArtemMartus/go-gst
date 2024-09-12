@@ -1,5 +1,5 @@
-github.com/ArtemMartus/go-glib v1.3.0 h1:uMt5yGe22E20UfxuvfQRGrIRevPr4E7WzCk2uPF0vHk=
-github.com/ArtemMartus/go-glib v1.3.0/go.mod h1:uhvJFJfe4EMnrz7v42PatdoXcm4YHcph73BWyndM3sA=
+github.com/ArtemMartus/go-glib v1.3.1 h1:BUt7orrvd6sHkAqLCa891WOBgVPwAJgxHuLO+hFpUjk=
+github.com/ArtemMartus/go-glib v1.3.1/go.mod h1:uhvJFJfe4EMnrz7v42PatdoXcm4YHcph73BWyndM3sA=
 github.com/mattn/go-pointer v0.0.1 h1:n+XhsuGeVO6MEAp7xyEukFINEa+Quek5psIR/ylA6o0=
 github.com/mattn/go-pointer v0.0.1/go.mod h1:2zXcozF6qYGgmsG+SeTZz3oAbFLdD3OWqnUbNvJZAlc=
 golang.org/x/exp v0.0.0-20240904232852-e7e105dedf7e h1:I88y4caeGeuDQxgdoFPUq097j7kNfw6uvuiNxUBfcBk=
