@@ -5,7 +5,7 @@ go 1.22.0
 toolchain go1.23.1
 
 require (
-	github.com/ArtemMartus/go-glib v1.3.2
+	github.com/ArtemMartus/go-glib v1.3.3
 	github.com/mattn/go-pointer v0.0.1
 )
 
